@@ -128,7 +128,7 @@ bool checkESPState() {
 	serialDebug("Check ESP ", (String)status, " " + answer);
 	return status == 200 && answer.toInt() == ESP_STATE_CONNECTED;
 }
-
+ 
 String encodeParams(String list[], int length) {
 	String result = "";
 	for (int i = 0; i < length; i++)
