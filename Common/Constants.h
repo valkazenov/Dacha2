@@ -1,0 +1,11 @@
+#pragma once
+
+#define ESP_STATE_INIT 0
+#define ESP_STATE_WAITCONNECT 1
+#define ESP_STATE_CONNECTED 2
+#define ESP_STATE_CONNECT_ERROR 3
+
+#define ESP_COMMAND_HTTP 1
+#define ESP_COMMAND_STATE 2
+
+
